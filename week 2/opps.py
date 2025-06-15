@@ -11,8 +11,8 @@ class Single_LinkedList:
         new_node = Node(data)
         if self.head is None:
             self.head = new_node
-            return
-        # return help in creating a clean list
+            return  # return help in creating a clean list
+
         current = self.head
         while current.next:
             current = current.next
@@ -57,7 +57,7 @@ class Single_LinkedList:
 if __name__ == "__main__":
     Linklist = Single_LinkedList()  
      
-    Linklist.print_list()
+    Linklist.print_list()  # printing empty list
     
     Linklist.add_node(10)
     Linklist.add_node(20)  
@@ -72,5 +72,6 @@ if __name__ == "__main__":
     print("delete 4th node")
     Linklist.delete_nth_node(4)
     Linklist.print_list()
+    
     # to try fault cases and other cases. 
     Linklist.delete_nth_node(14)
