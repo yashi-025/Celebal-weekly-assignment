@@ -10,23 +10,17 @@ This repository will be updated weekly with tasks and solutions provided as part
 The goal of this assignment is to implement a Singly Linked List in Python using Object-Oriented Programming (OOP) principles. This is part of the weekly assignment series and follows the Week 1 submission already uploaded to this repository.
 
 ### ✅ Features Implemented
-```
- A Node class to represent each element in the linked list.
 
-A LinkedList class to manage nodes with the following methods:
+- A Node class to represent each element in the linked list.
+  
+- A LinkedList class to manage nodes with the following methods:
+- add_node(data) – Add a node with the given data to the end of the list.
+- print_list() – Display all nodes in the list.
+- delete_nth_node(n) – Delete the node at the nth position (1-based index).
 
-add_node(data) – Add a node with the given data to the end of the list.
-
-print_list() – Display all nodes in the list.
-
-delete_nth_node(n) – Delete the node at the nth position (1-based index).
-
-Exception Handling for edge cases:
-
-Deleting from an empty list.
-
-Deleting a node with an out-of-range index.
-```
+- Exception Handling for edge cases:
+- Deleting from an empty list.
+- Deleting a node with an out-of-range index.
 
 
 ## 📅 Week 1: Python Basics
