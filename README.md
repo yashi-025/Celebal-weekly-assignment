@@ -11,16 +11,16 @@ The goal of this assignment is to implement a Singly Linked List in Python using
 
 ### ✅ Features Implemented
 
-- A Node class to represent each element in the linked list.
+1) A Node class to represent each element in the linked list.
   
-- A LinkedList class to manage nodes with the following methods:
-- add_node(data) – Add a node with the given data to the end of the list.
-- print_list() – Display all nodes in the list.
-- delete_nth_node(n) – Delete the node at the nth position (1-based index).
+2) A LinkedList class to manage nodes with the following methods:
+  - add_node(data) – Add a node with the given data to the end of the list.
+  - print_list() – Display all nodes in the list.
+  - delete_nth_node(n) – Delete the node at the nth position (1-based index).
 
-- Exception Handling for edge cases:
-- Deleting from an empty list.
-- Deleting a node with an out-of-range index.
+3) Exception Handling for edge cases:
+  - Deleting from an empty list.
+  - Deleting a node with an out-of-range index.
 
 
 ## 📅 Week 1: Python Basics
