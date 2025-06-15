@@ -9,7 +9,7 @@ This repository will be updated weekly with tasks and solutions provided as part
 
 The goal of this assignment is to implement a Singly Linked List in Python using Object-Oriented Programming (OOP) principles. This is part of the weekly assignment series and follows the Week 1 submission already uploaded to this repository.
 
-### ✅ Features Implemented
+### Features Implemented
 
 1) A Node class to represent each element in the linked list.
   
