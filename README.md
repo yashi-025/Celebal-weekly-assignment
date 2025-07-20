@@ -22,7 +22,7 @@ This web application predicts diamond prices using a trained regression model. B
 
 ### Setup Instructions
 1. Clone this repository
-2. Install dependencies: `pip install -r requirements.txt`
+2. Install dependencies: `pip install -r`
 3. Run app: `streamlit run app.py`
 
 ### Directory Structure
