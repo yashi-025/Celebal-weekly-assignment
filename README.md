@@ -3,6 +3,39 @@
 Welcome to the **Celebal Weekly Assignments** repository. 
 This repository will be updated weekly with tasks and solutions provided as part of the Celebal Internship Program.
 
+## Week 3: Diamond Price Predictor - Streamlit App
+
+## 🎯 Objective
+This web application predicts diamond prices using a trained regression model. Built with Streamlit, it allows users to input data, get instant predictions, and view related visualizations.
+
+## Features
+- User-friendly sidebar input
+- Real-time predictions
+- Data visualizations
+- Clean and modular code
+
+## Tech Stack
+- Python
+- Scikit-learn
+- Streamlit
+- Pandas, Seaborn, Matplotlib
+
+## Setup Instructions
+1. Clone this repository
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run app: `streamlit run app.py`
+
+## Directory Structure
+week 7
+├── app.py                         
+├── model/
+|   └── trained_model.py
+│   └── trained_model.pkl          
+├── utils/
+│   └── preprocess.py              
+└── dataset/
+  └── Diamonds Prices2022.csv            
+
 ## 📅 Week 2: OOPs in Python
 
 ### ✅ Assignment Description
